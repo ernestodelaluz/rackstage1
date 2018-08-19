@@ -13,9 +13,7 @@
 	\src\test\resources\rackspace-soapui-project.xml
 
 
-This project contains the next technologies
-
--Deployment: this project is for deploying in a tomcat server or other servers
+-This project contains the next technologies
 
 Gradle
 Spring framework
