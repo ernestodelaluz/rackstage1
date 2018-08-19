@@ -18,22 +18,22 @@ public class Terrestrial implements Moveable{
 	}
 	@Override
 	public void moveForward() {
-		System.out.println(vehicle + " driving forward ");		
+		System.out.println(vehicle + " driving forward (Land)");		
 	}
 
 	@Override
 	public void moveBackwards() {
-		System.out.println(vehicle + " driving backwards ");		
+		System.out.println(vehicle + " driving backwards (Land)");		
 	}
 
 	@Override
 	public void moveUp() {
-		System.out.println("Move up - Invalid operation for terrestrial");		
+		System.out.println(vehicle + " Move up - Invalid operation for terrestrial");		
 	}
 
 	@Override
 	public void moveDown() {
-		System.out.println("Move down - Invalid operation for terrestrial");	
+		System.out.println(vehicle + " Move down - Invalid operation for terrestrial");	
 	}
  
 }

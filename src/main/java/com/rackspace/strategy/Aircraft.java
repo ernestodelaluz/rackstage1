@@ -15,22 +15,22 @@ public class Aircraft  implements Moveable{
 	}
 	@Override
 	public void moveForward() {
-		System.out.println(vehicle + " flying forward ");		
+		System.out.println(vehicle + " flying forward (Air)");		
 	}
 
 	@Override
 	public void moveBackwards() {
-		System.out.println("Backwards - Invalid operation for flying");		
+		System.out.println(vehicle + " Backwards - Invalid operation for flying");		
 	}
 
 	@Override
 	public void moveUp() {
-		System.out.println(vehicle + " flying up ");		
+		System.out.println(vehicle + " flying up (Air)");		
 	}
 
 	@Override
 	public void moveDown() {
-		System.out.println(vehicle + " flying down ");		
+		System.out.println(vehicle + " flying down (Air)");		
 	}
  
 	
