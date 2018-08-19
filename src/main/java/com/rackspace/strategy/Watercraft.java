@@ -21,17 +21,17 @@ public class Watercraft  implements Moveable{
 
 	@Override
 	public void moveBackwards() {
-		System.out.println("Invalid operation for sailing");		
+		System.out.println("Backwards - Invalid operation for sailing");		
 	}
 
 	@Override
 	public void moveUp() {
-		System.out.println("Invalid operation for sailing");		
+		System.out.println("Move up - Invalid operation for sailing");		
 	}
 
 	@Override
 	public void moveDown() {
-		System.out.println("Invalid operation for sailing");	
+		System.out.println("Move Down - Invalid operation for sailing");	
 	}
  
 }

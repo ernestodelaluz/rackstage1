@@ -20,7 +20,7 @@ public class Aircraft  implements Moveable{
 
 	@Override
 	public void moveBackwards() {
-		System.out.println("Invalid operation for flying");		
+		System.out.println("Backwards - Invalid operation for flying");		
 	}
 
 	@Override

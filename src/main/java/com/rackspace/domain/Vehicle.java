@@ -54,7 +54,7 @@ public class Vehicle {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return "Vehicle[" + id + " " + brand + " " + type+  "]";
+		return "Vehicle[" + id + " " + brand + " " + model + " " + type+  "]";
 	}
 
 	public String getBrand() {

@@ -13,6 +13,11 @@ import com.rackspace.domain.Vehicle;
 import com.rackspace.domain.VehicleType;
 import com.rackspace.repositories.VehicleRepository;
 
+/**
+ * Service facade that contains CRUD operations to the Vehicle
+ * @author Ernesto
+ *
+ */
 @Service
 @Transactional
 public class VehicleServiceImpl implements VehicleService {

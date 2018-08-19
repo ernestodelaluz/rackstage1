@@ -28,12 +28,12 @@ public class Terrestrial implements Moveable{
 
 	@Override
 	public void moveUp() {
-		System.out.println("Invalid operation for terrestrial");		
+		System.out.println("Move up - Invalid operation for terrestrial");		
 	}
 
 	@Override
 	public void moveDown() {
-		System.out.println("Invalid operation for terrestrial");	
+		System.out.println("Move down - Invalid operation for terrestrial");	
 	}
  
 }
